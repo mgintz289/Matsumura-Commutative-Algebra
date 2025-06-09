@@ -121,7 +121,7 @@ Let $x_{1}, \dots, x_{n} \in A$, and let $A e_{i}$ be a free A-module of rank on
 denote the complex defined by
 \[K_p(x_i) = \begin{cases} 0 &, p\neq 1,0 \\ Ae_i &, p=1\\ A & p=0\end{cases}\]
 and by $\dd(e_{i})=x_{i} \cdot$ Then $H_{0}(K_{\bullet}(x_{i}))=A / x_{i} A$ and $H_{1}(K_{\bullet}(x_{i})) \simeq \Ann(x_{i})$. For any complex $C_\bullet$, we put \[C_\bullet(x_{1}, \dots, x_{n})=C_\bullet \otimes K_\bullet(x_{1}) \otimes \dots \otimes K_\bullet(x_{n}).\] 
-If $M$ is an $A$-module we view it as a complex M. with $M_{n}=0\for{n \neq 0}$ and $M_{0}=M$, and we put \[K_{\bullet}(x_{1}, \dots, x_{n}, M)=M_\bullet \otimes K_\bullet(x_{1}) \otimes \dots \otimes K_\bullet(x_{n}).\] If there is no danger of confusion we denote them by $C_\bullet(\underline{x})$ and by $K_\bullet (\underline{x}, M)$ respectively. These complexes are called \defemph{Koszul complexes}\index{Koszul complex}. We have $k_{p}(x_{1}, \dots, x_{n}, M)=0$ for $n<p$, while
+If $M$ is an $A$-module we view it as a complex M. with $M_{n}=0\for{n \neq 0}$ and $M_{0}=M$, and we put \[K_{\bullet}(x_{1}, \dots, x_{n}, M)=M_\bullet \otimes K_\bullet(x_{1}) \otimes \dots \otimes K_\bullet(x_{n}).\] If there is no danger of confusion we denote them by $C_\bullet(\underline{x})$ and by $K_\bullet (\underline{x}, M)$ respectively. These complexes are called \defemph{Koszul complexes}\index{Koszul complex}. We have \linebreak$k_{p}(x_{1}, \dots, x_{n}, M)=0$ for $n<p$, while
 \[
 K_{p}(x_{1}, \dots, x_{n}, M)= \bigoplus_{\substack{p \text{ of the } \alpha_i\text{'s are =1}\\ \text{and the rest are }=0}} M\otimes [K_{\alpha_1}(x_1)\otimes \dots \otimes K_{\alpha_n} (x_n)]
 \]
@@ -155,7 +155,7 @@ where $A'$ is the factor complex $K_\bullet(x) / A$, therefore $(A')_{1} \simeq 
 0 \varrightarrow{} C_\bullet\varrightarrow{}C_\bullet(x) \varrightarrow{} C'_\bullet\varrightarrow{}0 \for{C'_\bullet=C_\bullet \otimes A'}
 \]
 which is again exact. The complex $C'$ is obtained from $C$ by increasing the dimension by one: $C'_{p}=C_{p-1}$ and $\dd_p' = \dd_{p-1}$. Thus $H_{p}(C') \varrightarrow{} H_{p-1}(C)$, and we get a long exact sequence
-\[\begin{aligned}\dots &\varrightarrow{}& H_{p+1}(C_\bullet) &\varrightarrow{}& H_{p+1}(C_\bullet (x))& \varrightarrow{}& H_p(C_\bullet) &\varrightarrow{\delta_p}& H_p(C_\bullet)&\varrightarrow{}& \\ \dots &\varrightarrow{\delta_1}&H_1(C_\bullet)&\varrightarrow{}&H_1(C_\bullet(x))&\varrightarrow{}&H_0(C_\bullet)&\varrightarrow{\delta_0}&H_0(C_\bullet)&\varrightarrow{}&H_0(C_\bullet(x))&\varrightarrow{}&0\end{aligned}\]
+\begin{gather*}\dots\varrightarrow{}H_{p+1}(C_\bullet)\varrightarrow{}H_{p+1}(C_\bullet (x))\varrightarrow{}H_p(C_\bullet)\varrightarrow{\delta_p}H_p(C_\bullet)\varrightarrow{}\\ \dots\varrightarrow{\delta_1}H_1(C_\bullet)\varrightarrow{}H_1(C_\bullet(x))\varrightarrow{}H_0(C_\bullet)\varrightarrow{\delta_0}H_0(C_\bullet)\varrightarrow{}H_0(C_\bullet(x))\varrightarrow{}0.\end{gather*}
 One immediately checks that the connecting homomorphism $\delta_{p}$ is the multiplication by $(-1)^{p} x$. Therefore we get
 
 \begin{lemma}\label{lem:18.07}

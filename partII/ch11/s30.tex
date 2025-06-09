@@ -104,11 +104,13 @@ Let $A$ be a Noetherian \emph{complete} local ring and $\ideal p$ be a prime ide
         \item $B' = A_{{\ideal p}_0}$
     \end{itemize} Then $B'$ is finite over $S$, and $B = A_{\ideal p}$ is a localization of the semi-local ring $B'$ by a maximal ideal. Hence $\completion B$ is a localization (and a direct factor) of $\completion {B'} = B' \otimes_S {\completion S}$. Let $L$ (resp. $K$) be the quotient field of $A$, $B'$ and $B$ (resp. $R$ and $S$).
     \begin{center}
+    \adjustbox{scale=.97}{
     \begin{tikzcd}
                        &  &                                                 & \completion {B'} \arrow[r, equals] & B' \otimes_S {\completion S} \arrow[rr] &                                             & \completion B         &             \\
     A \arrow[rr]           &  & A_{{\ideal p}_0} \arrow[r, equals] & B' \arrow[rr] \arrow[u]                         &                                         & A_{\ideal p} \arrow[r, equals] & B \arrow[r] \arrow[u] & L           \\
     R \arrow[rr] \arrow[u] &  & R_{{\ideal p}_0} \arrow[r, equals] & S \arrow[rrrr] \arrow[u]                        &                                         &                                             &                       & K \arrow[u]
     \end{tikzcd}
+    }
     \end{center}
 
     We are given $Q \in \Spec(\completion B)$ such that $Q \cap B = (0)$. Then ${\completion pB_Q}$ is a localization of \[L \otimes_{B'} \completion {B'} = L \otimes_S {\completion S} = L \otimes_K (K \otimes_S {\completion S}),\] and $L$ is a finite extension of the field $K$. In general if $T$ is a $K$-algebra, if $M \in \Spec(L \otimes_K T)$ and $m = M \cap T$, and if $T_m$ is f.s. over $K$, then $(L \otimes T)_M$ is a localization of $L \otimes_K T_m$ and hence is f.s. over $L$. Thus it suffices to show that ${\completion S}_{Q \cap {\completion S}}$ is f.s. over $K$. Thus the problem is reduced to proving that, if $R$ is a complete regular local ring with quotient field $K$, if $\ideal p \in \Spec(R)$ and $S = R_{\ideal p}$, and if $Q$ is a prime ideal of $\completion S$ such that $Q \cap S = (0)$, then ${\completion{S_Q}}$ is f.s. over $K$. 
